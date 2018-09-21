@@ -1,0 +1,1 @@
+Tensor("gradients/q/Conv/Conv2D_grad/tuple/control_dependency_1:0", shape=(8, 8, 4, 32), dtype=float32)

@@ -1,0 +1,99 @@
+2017-11-12 12:22:26,474:INFO: Making new env: Pong-v0
+2017-11-12 12:22:26,667:INFO: Creating monitor directory results/q4_train_atari_linear/monitor/
+2017-11-12 12:22:26,681:INFO: Starting new video recorder writing to /home/accts/sk2436/Downloads/part3/part3/results/q4_train_atari_linear/monitor/openaigym.video.0.19607.video000000.mp4
+2017-11-12 12:22:26,705:INFO: Finished writing results. You can upload them to the scoreboard via gym.upload('/home/accts/sk2436/Downloads/part3/part3/results/q4_train_atari_linear/monitor')
+2017-11-12 12:29:39,454:INFO: Making new env: Pong-v0
+2017-11-12 12:31:06,540:INFO: Making new env: Pong-v0
+2017-11-12 12:31:07,645:INFO: Evaluating...
+2017-11-12 12:31:51,123:INFO: Average reward: -20.96 +/- 0.03
+2017-11-12 12:40:28,914:INFO: Making new env: Pong-v0
+2017-11-12 12:40:29,143:INFO: Starting new video recorder writing to /home/accts/sk2436/Downloads/part3/part3/results/q4_train_atari_linear/monitor/openaigym.video.0.4740.video000000.mp4
+2017-11-12 12:40:29,203:INFO: Finished writing results. You can upload them to the scoreboard via gym.upload('/home/accts/sk2436/Downloads/part3/part3/results/q4_train_atari_linear/monitor')
+2017-11-12 12:41:14,940:INFO: Evaluating...
+2017-11-12 12:41:27,395:INFO: Evaluating...
+2017-11-26 01:56:35,563:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2017-11-26 01:56:35,567:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2017-11-26 01:56:35,569:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2017-11-26 01:56:35,571:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2017-11-26 01:56:35,572:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2017-11-26 01:56:35,574:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2017-11-26 01:56:35,575:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2017-11-26 01:56:35,576:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2017-11-26 01:56:36,079:INFO: Evaluating...
+2017-11-26 01:59:59,136:INFO: Average reward: -20.90 +/- 0.04
+2017-11-26 02:29:17,935:INFO: Evaluating...
+2017-11-26 02:30:07,457:INFO: Average reward: -20.96 +/- 0.03
+2017-11-26 02:55:01,146:INFO: Evaluating...
+2017-11-26 02:55:54,584:INFO: Average reward: -20.94 +/- 0.03
+2017-11-26 03:21:12,419:INFO: Evaluating...
+2017-11-26 03:22:04,374:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 03:22:51,432:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2017-11-26 03:22:51,433:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2017-11-26 03:22:51,434:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2017-11-26 03:22:51,435:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2017-11-26 03:22:51,437:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2017-11-26 03:22:51,438:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2017-11-26 03:22:51,439:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2017-11-26 03:22:51,440:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2017-11-26 03:22:51,973:INFO: Evaluating...
+2017-11-26 03:24:25,373:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 03:49:59,198:INFO: Evaluating...
+2017-11-26 03:50:52,935:INFO: Average reward: -20.82 +/- 0.06
+2017-11-26 04:16:41,395:INFO: Evaluating...
+2017-11-26 04:17:33,060:INFO: Average reward: -20.96 +/- 0.03
+2017-11-26 04:42:35,216:INFO: Evaluating...
+2017-11-26 04:43:32,443:INFO: Average reward: -20.60 +/- 0.08
+2017-11-26 05:08:46,349:INFO: Evaluating...
+2017-11-26 05:09:39,472:INFO: Average reward: -20.98 +/- 0.02
+2017-11-26 06:04:38,647:INFO: Evaluating...
+2017-11-26 06:05:27,149:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 12:11:10,852:INFO: Evaluating...
+2017-11-26 12:12:05,789:INFO: Average reward: -20.60 +/- 0.08
+2017-11-26 12:36:32,553:INFO: Evaluating...
+2017-11-26 12:37:23,122:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 13:02:20,142:INFO: Evaluating...
+2017-11-26 13:03:15,470:INFO: Average reward: -20.78 +/- 0.06
+2017-11-26 13:28:14,246:INFO: Evaluating...
+2017-11-26 13:29:09,216:INFO: Average reward: -20.94 +/- 0.03
+2017-11-26 13:54:04,385:INFO: Evaluating...
+2017-11-26 13:55:06,045:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 14:19:48,576:INFO: Evaluating...
+2017-11-26 14:20:42,463:INFO: Average reward: -20.56 +/- 0.11
+2017-11-26 14:46:11,666:INFO: Evaluating...
+2017-11-26 14:47:02,206:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 15:12:27,551:INFO: Evaluating...
+2017-11-26 15:13:17,063:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 15:38:01,811:INFO: Evaluating...
+2017-11-26 15:38:54,740:INFO: Average reward: -20.56 +/- 0.07
+2017-11-26 16:03:39,435:INFO: Evaluating...
+2017-11-26 16:04:36,454:INFO: Average reward: -20.94 +/- 0.03
+2017-11-26 16:29:33,108:INFO: Evaluating...
+2017-11-26 16:30:22,338:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 17:06:28,818:INFO: Evaluating...
+2017-11-26 17:07:20,203:INFO: Average reward: -21.00 +/- 0.00
+2017-11-26 17:33:14,551:INFO: Evaluating...
+2017-11-26 17:34:13,695:INFO: Average reward: -20.82 +/- 0.06
+2017-11-26 17:59:57,729:INFO: Evaluating...
+2017-11-26 18:00:50,167:INFO: Average reward: -20.80 +/- 0.08
+2017-11-27 15:26:23,146:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2017-11-27 15:26:23,148:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2017-11-27 15:26:23,149:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2017-11-27 15:26:23,150:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2017-11-27 15:26:23,152:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2017-11-27 15:26:23,153:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2017-11-27 15:26:23,154:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2017-11-27 15:26:23,155:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2017-11-27 15:26:23,683:INFO: Evaluating...
+2017-11-27 15:27:50,999:INFO: Average reward: -20.78 +/- 0.06
+2017-12-08 19:03:33,835:INFO: Summary name grads norm is illegal; using grads_norm instead.
+2017-12-08 19:03:33,837:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2017-12-08 19:03:33,838:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2017-12-08 19:03:33,839:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2017-12-08 19:03:33,840:INFO: Summary name Avg Q is illegal; using Avg_Q instead.
+2017-12-08 19:03:33,841:INFO: Summary name Max Q is illegal; using Max_Q instead.
+2017-12-08 19:03:33,843:INFO: Summary name Std Q is illegal; using Std_Q instead.
+2017-12-08 19:03:33,844:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2017-12-08 19:03:34,351:INFO: Evaluating...
+2017-12-08 19:04:43,865:INFO: Average reward: -20.92 +/- 0.05
+2017-12-08 19:30:31,033:INFO: Evaluating...
+2017-12-08 19:31:29,002:INFO: Average reward: -20.74 +/- 0.11

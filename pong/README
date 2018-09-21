@@ -1,0 +1,31 @@
+Part 2
+
+1. Experience Relay is a biologically inspired mechanism that randomises over
+	data, removes correlations in the observation sequence and smooths the changes in the data distribution. In DQn, experience replay was implemented by storing the agent's experience at each time step (e = (st, at, rt, st+1)) over many episodes into a replay memory. During the inner loop of the algorithm, Q-learning updates are applied to to samples of experience, drawn at random from the pool of experiences. 
+
+	Adavantages:
+		Each step of experience is potentially used in many weight updates allowing for greater data efficiency. Using random samples of experience breaks correlations between samples, reducing varaince of the updates. 
+		ER also smooths out learning and avoids oscillations or divergence in parameters
+	Disadvantages:
+		In practice, only a finite number of N experience tuples are stored and important transitions are not differentiated due to finite memory size. The uniform sampling also gives equal importance to all transitions as opposed to emphasizing transitions from which the most learning is done
+
+
+2.  Figure 4 is a tSNE embedding of the representations in the last hidden layer 
+	assigned by DQN to game states experienced while playing Space invaders. A tSNE (t-distributed stochastic neighbour embedding ) is a dimensinality reduction technique that is used to visualise high dimensional datasets
+	It is a plot generated from 2 hours of real game time and running the tSNE algorithm on the last hidden layer representaions assigned by DQN to each experienced game state. The colored points plot values predicted by DQN againts the corresponding game state. There are screenshots corresponding to a selected number of points. 
+	The plot maps DQN representation of perceptually similar states to nearby points. It also maps representations of states with similar rewards but which are not perceptually similar showing that the network is able to learn representations that support adaptive behavior from high dimensional sensory inputs. It shows that DQNs can generalise to data generated from policies other than its own
+
+3. Choosing a random action with probability e allows an improvement in the policy 	
+	ensuring that there is some amount of exploration(balance between exploration and exploitation). The probability of selecting the optimal action converges to greater than (1 - e). For tasks with noisy rewards (high variance), e-greedy performs better. Except in the case where the reward variance is zero, choosing the action with the highest expected value all the time will result in suboptimal performance because the agent finds some local minima and converges and never explores other possibly better actions. e decreases over time in order to get the best out of high and low action values. It also allows the control of the amount of exploration as the amount of knowledge gained increases.A possible alternative is Boltzmann Exploration which chooses an action with weighted probabilities by using softmax over value estimates of each action. It chooses the action which the agent estimates to be optimal. An additional temperature parameter is used which reduces over time. This parameter controls the spread of the sofmax distribution so that at the start, all actions have an equal probability of being chosen.
+
+4. Research and explain one of the following alternative
+architecture that improves on DQN: Deep Attention Recurrent Q Network, Dueling Architecturesfor Q-Learning, Deep Double Q-Learning Network. Please cite the paper you refer to. 
+
+Deep Attention Recurrent Neural Network:
+DQN as implemented does not perform well in games which require a player to remember more than four screens in the past because actions are determined last four game states encountered by the agent. Deep Attention Recurrent Neural Q Netowrks(DARQN) solve this problem of a limited attention. 
+DARQN consists of an Long Short Term Memory(LSTM) network and a DQN. The fully connected layer in the DQN is replaced in with the LSTM and only the last visual frame at each time step is used as the DQN's input. 
+The DARQN consists of a ConvNN, an attention network and a recurrent network(LSTM in this case). At each time step t, CNN receives a representation of the current game(visual frame) state and produces a set of feature maps. The attention network transforms these maps into a set of vectors and outputs their linear combination, called a context vector. The LSTM uses the context vector, previous hidden state ad memory state and produces a new hidden state. This hidden state is used by a linear layer to compute the Q-value of each action. It is also used by the attention network to create a new context vector for the next time step. The context vector can be calculated using soft attention(weighted sum of all vectors that correspond to feature map with the weights chosen based on their a measure of their relevance calculated by the attention network) or hard attention (this samples only one attention location at each time step t according some stochastic attention policy). The weights for LSTM in a hard attention DARQN are preinitialised based on the weights from the trained soft attention model. 
+
+
+Part 3
+It allows the agent to play 4 times the number of games 
